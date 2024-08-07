@@ -260,7 +260,7 @@
             <p>
               To evaluate our approach, we introduce two basketball datasets: one estimated through monocular RGB videos and the other using advanced motion capture equipment, collectively containing about 35 minutes of diverse basketball skills. 
               Experiments show that our method can effectively learn all the basketball skills contained in the dataset with a unified configuration, including various styles of dribbling, layups, and shooting. 
-              Furthermore, by training a high-level controller to reuse the acquired skills, we can achieve complex basketball tasks such as layup scoring, which involves dribbling toward the basket, timing the dribble and layup to score, retrieving the rebound, and repeating the process.
+              Furthermore, by training a high-level controller to reuse the acquired skills, we can achieve complex basketball tasks such as scoring, which involves dribbling toward the basket, timing the dribble and layup to score, retrieving the rebound, and repeating the process.
             </p>
             
           </div>
@@ -291,10 +291,8 @@
         <div class="column is-four-fifths">
           <!-- <h2 class="title is-3"><span class="dnerf">AnySkill</span> model</h2> -->
           <div class="content has-text-justified">
+            <h2 class="title is-3">Overview</h2>
             <img src="./static/images/page_framework.png"/>
-              <p style="text-align: center;">
-                <span class="title is-6"> SkillMimic </span> framework
-              </p>
           </div>
         </div>
       </div>
@@ -323,8 +321,8 @@
             <span style="font-size: 1.2em;"><b>Motions</b> </span>
             <div class="select is-small">
               <select id="motionSelector">
-                <option>HLC-LayupScoring-FixedBasket</option>
-                <option>HLC-LayupScoring-VaringBasket</option>
+                <option>HLC-Scoring-FixedBasket</option>
+                <option>HLC-Scoring-VaringBasket</option>
                 <option>HLC-Heading</option>
                 <option>HLC-Circling</option>
                 <option>LLC-ManualControl</option>
@@ -651,7 +649,7 @@
     <div class="columns is-centered">
       <div class="column is-two-fifths is-centered has-text-centered">
         <video controls autoplay loop muted playsinline src="./static/videos/2_layup_score_demo.mp4" poster="./static/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-        <p> <strong>Laypup Scoring</strong> (lay the ball up to target positions)</p>
+        <p> <strong>Scoring</strong> (lay the ball up to target positions)</p>
       </div>
       <div class="column is-two-fifths is-centered has-text-centered">
         <video controls autoplay loop muted playsinline src="./static/videos/2_throwing_demo.mp4" poster="./static/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
