@@ -35,10 +35,6 @@ body {
   max-height: parent;
 
 }
-.video-caption {
-  text-align: center;
-  margin-top: 10px;
-}
 .publication-banner video {
   position: relative;
   left: auto;
